@@ -1,0 +1,39 @@
+puts "What's your name?"
+name = gets.chomp
+puts "Welcome "+ name  + "! Let's find your spirit animal by taking this simple quiz!"
+puts "Pick an indulgent food: pizza, salad, burgers"
+option = gets.chomp
+case option
+when "pizza"
+  puts "🍕"
+when "salad"
+  puts "🥗"
+when "burgers"
+  puts "🍔"
+else puts "Pick one!"
+end
+
+puts "Pick a movie genre: action, romantic, scary"
+option2 = gets.chomp
+case option2
+when "action"
+  puts "🤸"
+when "romantic"
+  puts "💑"
+when "scary"
+  puts "👻"
+else puts "You must pick one"
+end
+
+puts "Finally, pick your ideal Saturday night: Netflix & chill(relaxing), night at Ultra(party), trying out a new restaurant (foodie)"
+option3 = gets.chomp
+case option3
+when "Netflix & chill", "relaxing"
+  puts "Your spirit animal is a sloth 😴. You like to stick to your routine and stay in your comfort zone. Sloth on!"
+when "night at Ultra", "party"
+  puts "Your spirit animal's a unicorn.🦄 You're down for random last minute adventures and like to live life on the edge"
+when "trying out a new restaurant", "foodie"
+  puts "You're a panda! 🐼 You're lovable, friendly, and most importantly can love and appreciate food"
+else
+  puts "You still need to answer one more in order for your spirit animal to be revealed!"
+end

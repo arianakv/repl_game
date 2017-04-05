@@ -1,3 +1,5 @@
+hi its scott
+
 puts "What's your name?"
 name = gets.chomp
 puts "Welcome "+ name  + "! Let's find your spirit animal by taking this simple quiz!"
